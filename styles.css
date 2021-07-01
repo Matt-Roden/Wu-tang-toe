@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Graffiti;
+  src: url("../assets/Graffiti.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 25px;
+  font-family: Graffiti, sans-serif;
+  background-image: url("../assets/wuLogo.jpg");
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 500%;
+  filter: drop-shadow(0em 0em .1em #787878);
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 4em;
+  filter: drop-shadow(0em 0em .2em #787878);
+}
+
+button {
+  width: 33.25%;
+  height: 33.25%;
+  background-color: #131313;
+  border: none;
+  font-size: 1.6em;
+}
+
+audio {
+  filter: drop-shadow(0em 0em .65em #787878);
+  height: 30px;
+  width: 250px;
+}
+
+.player1-scoreboard {
+  background-color: #131313;
+  opacity: 0.99;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player2-scoreboard {
+  background-color: #131313;
+  opacity: 0.99;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scorecard-box {
+  background-color: #131313;
+}
+
+.scoreboard-header-box {
+ display: flex;
+ justify-content: space-around;
+}
+
+.game-section {
+  background-color: #131313;
+  opacity: 0.99;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0;
+}
+
+.gameboard {
+  background-color: #131313;
+  height: 65%;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.game-title {
+  color: #EBE405;
+  font-size: 1.95em;
+  filter: drop-shadow(0em 0em .3em #908C06);
+  transition: all 1.0s ease;
+}
+
+.game-title:hover {
+  filter: brightness(200%);
+  filter: drop-shadow(0em 0em .65em #908C06);
+}
+
+.gameboard-header {
+  margin-top: 0;
+  font-size: 1.05em;
+  filter: drop-shadow(0em 0em .2em #787878);
+}
+
+.middle-column {
+  border-left: solid 5px #EBE405;
+  border-right: solid 5px #EBE405;
+}
+
+.middle-row {
+  border-top: solid 5px #EBE405;
+  border-bottom: solid 5px #EBE405;
+}
+
+.disable {
+  pointer-events: none;
+  cursor: not-allowed;
+}

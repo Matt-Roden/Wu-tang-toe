@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Wu-Tang-Toe</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="player1-scoreboard">
+        <div class="scoreboard-header-box">
+            <h2>🎤</h2>
+        </div>
+        <div class="scorecard-box">
+            <h3 id="scorecard1"></h3>
+        </div>
+        <audio loop controls src="../assets/Cream.mp3"></audio>
+      </section>
+      <section class="game-section" id="gameboard">
+        <div class="title-box">
+          <h1 class="game-title">Wu-Tang-Toe</h1>
+        </div>
+        <div class="gameboard-header">
+          <h1 class="gameboard-header" id="game-header"></h1>
+        </div>
+        <div class="gameboard">
+          <button class="sqaure" id ="0" type="button"></button>
+          <button class="sqaure middle-column" id="1" type="button"></button>
+          <button class="square" id="2" type="button"></button>
+          <button class="square middle-row" id="3" type="button"></button>
+          <button class="square middle-column middle-row" id="4" type="button"></button>
+          <button class="square middle-row" id="5" type="button"></button>
+          <button class="square" id="6" type="button"></button>
+          <button class="square middle-column" id="7" type="button"></button>
+          <button class="sqaure" id="8" type="button"></button>
+        </div>
+      </section>
+      <section class="player2-scoreboard">
+          <div class="scoreboard-header-box">
+            <h2>📼</h2>
+          </div>
+          <div class="scorecard-box">
+              <h3 id="scorecard2"></h3>
+          </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="player.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
